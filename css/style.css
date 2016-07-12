@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Rubik Regular";
+  src: url("../font/rubik/Rubik-Regular.ttf"); }
+@font-face {
+  font-family: "Rubik Bold";
+  src: url("../font/rubik/Rubik-Bold.ttf"); }
+h1 {
+  font-family: "Rubik Regular";
+  font-size: 8rem; }
+
+h2 {
+  font-family: "Rubik Regular";
+  font-size: 5rem;
+  line-height: 6rem; }
+
+h3 {
+  font-family: "Rubik Regular";
+  font-size: 3rem; }
+
+.text-center {
+  text-align: center; }
+
+img {
+  width: auto;
+  height: 600px; }
+
+.half-width {
+  width: 50%; }
+
+.border-round {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 1rem; }
+
+.column-left {
+  margin-right: 1rem; }
+
+.column-right {
+  margin-left: 1rem; }
+
+.emoji-large {
+  font-size: 5rem; }
+
+.emoji {
+  font-size: 3rem; }
+
+.flex {
+  display: flex; }
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.flex-center {
+  display: flex;
+  align-items: center; }
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+#welcome img {
+  margin: 100px 0;
+  width: 100%;
+  height: auto; }
+
+#whohere {
+  margin-left: 60px; }
+
+.city {
+  margin: 100px 0; }
+  .city h3 {
+    margin: 0 0 4rem 0; }
+  .city p {
+    margin: 0 0 4rem 0; }
+
+.small-city {
+  width: 300px; }
+
+.timeline {
+  height: 30px;
+  width: 100%;
+  background-color: #99c79f; }
+
+#epiDustin {
+  margin-left: -50px; }
+  #epiDustin img {
+    max-width: 440px;
+    height: 290px;
+    margin: 1rem 0; }
+
+#shared table tr {
+  border-bottom: 3px solid black; }
+  #shared table tr td {
+    padding-bottom: 1.5rem; }
+  #shared table tr img {
+    width: 50px;
+    height: 60px;
+    margin-bottom: -0.3rem; }
+  #shared table tr td:nth-of-type(n+2) {
+    text-align: center;
+    padding: 0.5rem 1rem 0 1rem; }
+  #shared table tr td:first-child {
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    line-height: 2rem; }
+
+#actual-cost div h3:nth-child(4) {
+  border-bottom: 5px solid black; }
+
+#final-cost {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+  #final-cost h2:nth-child(2) {
+    border-bottom: 5px solid black; }
+  #final-cost h2:last-child {
+    margin-top: 0.5rem;
+    background: #99c79f;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white; }
+
+#WIFU h2 {
+  margin-bottom: 2rem; }
+
+#thanks {
+  animation: wiggle 0.5s linear infinite alternate, color-grad 5s ease infinite alternate; }
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(8deg); }
+  50% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-8deg); } }
+@keyframes color-grad {
+  0% {
+    color: #ec2e2e; }
+  25% {
+    color: #1ae696; }
+  50% {
+    color: #e9fc04; }
+  100% {
+    color: #1c6af0; } }
+.thankyou {
+  background-image: url("../img/vaporpaper.gif");
+  background-size: cover; }
+
+/*# sourceMappingURL=style.css.map */
