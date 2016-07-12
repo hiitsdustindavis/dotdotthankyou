@@ -136,11 +136,11 @@ img {
 
 @keyframes wiggle {
   0% {
-    transform: rotate(8deg); }
+    transform: rotate(6deg); }
   50% {
     transform: rotate(0deg); }
   100% {
-    transform: rotate(-8deg); } }
+    transform: rotate(-6deg); } }
 @keyframes color-grad {
   0% {
     color: #ec2e2e; }
